@@ -1,0 +1,50 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+
+  <body class="black-background thick-white-border">
+<style>
+  #part1{background-image: url("https://github.com/ionush/ionush.github.io/blob/master/objects/food.png"); background-size: 80px; padding-top: 40px;}
+  #titleborder
+  .white-text{
+    color:white;
+  }
+  .pink-text{
+    color:pink;
+  }
+  .black-background{
+    background-color:olive;
+  }
+  h1{font-family:Arial, lobster; border:5px white solid;color:white;font-weight: bolder;font-size: 60; text-align: center;}
+  h2{font-family: sans-serif; text-align: center;}
+  p{font-family: sans-serif; text-align: center; color:white}
+  .thick-white-border{
+    border-color: white; border-width: 20; border-style:solid; margin:10;
+  }
+  #page{border: 10px;}
+</style>
+
+
+<h1>Smoothie Time!</h1>
+</div>
+<!-- One -->
+<h2>Breakfast, Lunch and Dinner</h2>
+</header>
+<p>A healthy lifestyle is a happy lifestyle, and a happy lifestyle consists of good food, exercise, rest, and of course, smoothies! Smoothies can be really good for you, and can be a really good meal
+substitute if you are in a rush, or like to get your daily nutrition in other ways than just munching! Smoothies allow you to significantly increase
+the number of vitamins, minerals and fibre you typically ingest in a day! Here is a short list of smoothies for every time of the day.</p>
+</div>
+<!-- put the box here -->
+<!-- Three -->
+
+<h2>About me</h2>
+<p>My name is Neil, and I am applying for the October 2017 cohort in Nazareth, Israel. I began my journey into programming about a year ago by learning Python, and I am desperate to learn more, especially with others!</p>
+<ul class="icons">
+<li><a href="https://github.com/ionush" class="icon alt" target="_blank"><img src="assets/github.png" alt=""/><span class="label">Github</span></a></li>
+<li><a href="https://www.codewars.com/users/ionush" class="icon alt" target="_blank"><img src="assets/codewars.png" alt=""/><span class="label">Codewars</span></a></li>
+</ul>
+
+</body>
+</html>
