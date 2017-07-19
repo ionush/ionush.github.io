@@ -4,37 +4,28 @@ border-top: 5px solid #6fece6;
 
 font-family: 'Open Sans', sans-serif;
 color: #333333;}
-input
-{
-font-family: 'Open Sans', sans-serif;
-font-size:16px;
-padding: 7px;
-outline: 0;
-border:0;
-width:250px;
-background: #EBE8DE;
-border-radius:5px;}
+
 
 .green_bg{
   background: #6fece6;
-  padding: 150px 0
+  padding: 200px 0
 
 }
 .white_bg{
   background: #fff;
-  padding:150px 0;
+  padding-top: 150 ;
+  padding-bottom: 250;
+
 }
 .pink_bg{
   background: #fed2df;
-  padding: 150px 0;
+  padding: 0px 0;
+  padding-top:30px;
 }
-.yellow_bg{
-  background:#ffff00
-  padding: 150px 0;
-}
+
 p
 {
-margin: 5px 50 0 50;
+margin: 0px 50 0 50;
 line-height: 25px;}
 
 a
@@ -51,7 +42,7 @@ header
 position:relative;
 width:auto;
 max-width:900px;
-margin: 0 auto 20px auto;}
+margin: 0 auto auto auto;}
 
 header h1
 {
@@ -81,8 +72,14 @@ h2
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   text-align: center;
-  color: #4A463B;
-  margin-left:35px;}
+  color: #4A463B;}
+}
+nav
+{
+        position:absolute;
+        right:0;
+        bottom:0;
+
 }
 nav ul
 {
@@ -107,78 +104,59 @@ color: #fff;}
 
 #two article.column1
 {
-  margin: 70px 0;
-font-size:14px;
+margin-top: -100;
+font-size:17px;
 float:left;
-width:450px;
+width:650px;
 }
 #two .column2
 {
-  margin:50px 0 0 50px;
+  margin: -100 0 0 50px;
   position:relative;
   float:right;
   width:350px;
-
 }
-.pineapple:hover
-{
-animation-name: stylie-transform2-keyframes;
-animation-duration: 1000ms;
-animation-delay: 0ms;
-animation-fill-mode: forwards;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
-transform-origin: 0 0;}
+.slides{
+  position: relative;
+  text-align: center;
+  display:inline-block;
+  padding-top: -150 0;
+
+
+  }
+
+
 footer
 {
 position:relative;
 clear:both;
 width:auto;
+background: #ffff00;
 text-align: center;
+padding-top: 50;
 height:350px;
 }
-footer .social
-{
-line-height:25px;
-margin:auto;
-width: 50%
-padding-top:30px;
-width:auto;
 
-max-width:900px;
-font-size:14px;
+.social{
+display:inline-block;
+text-align: center;
 }
-
-#copyright
-{
-height:70px;
-position:absolute;
-bottom:0;
-left:0;
-width:100%;}
-#copyright
-{
-position:absolute;
-right:0;
-top:25px;}
-#copyright .social a
-{
+.logo {
+  float:left; padding:30px;}
+.social a{
 transition: opacity .25s ease;
 opacity: 0.3;
-;
+margin-left:;
 display:block;
-float:left;}
-#copyright .social a:hover
+}
+
+.social a:hover
 {
 opacity: 0.7;}
 
-#copyright .social a
-{
-color: #ABABAB;}
 
-#copyright .social a:hover
-{
-color: #fff;}
+
+
 .hidden
 {
 position:absolute;
