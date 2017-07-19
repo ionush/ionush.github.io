@@ -8,24 +8,26 @@ color: #333333;}
 
 .green_bg{
   background: #6fece6;
-  padding: 200px 0
+  padding: 200px 0;
 
 }
 .white_bg{
   background: #fff;
-  padding-top: 150 ;
-  padding-bottom: 250;
-
+  padding: 50px 0;
+  margin-right: 350px;
 }
+
+
 .pink_bg{
   background: #fed2df;
-  padding: 0px 0;
-  padding-top:30px;
+  padding: 100px 0;
+  text-align: center;
+  ;
 }
 
 p
 {
-margin: 0px 50 0 50;
+margin: 0px 50px 0px 50px;
 line-height: 25px;}
 
 a
@@ -47,14 +49,14 @@ margin: 0 auto auto auto;}
 header h1
 {
 width:auto
-margin: 0 0 0 0;
+margin: 0px 0px 0px 0px;
 font-size: 60px;
 color: black;
 text-align: center;
 font-family: 'Baumans', cursive;}
 .subheading{
   width:auto
-  margin: 0 0 0 0;
+  margin: 0px 0px 0px 0px;
 
   color: black;
   text-align: center;
@@ -102,19 +104,26 @@ nav ul li a:hover
 {
 color: #fff;}
 
-#two article.column1
+/*#two
 {
-margin-top: -100;
-font-size:17px;
-float:left;
-width:650px;
-}
-#two .column2
+margin-top: ;
+font-size:25px;
+float:right;
+width:450px;
+}-->*/
+
+/*#two .column2
 {
   margin: -100 0 0 50px;
   position:relative;
   float:right;
-  width:350px;
+  width:350px;*/
+}
+img.pineapple{
+  float:right;
+  width: 70px;
+  height: 60px;
+  overflow: hidden;
 }
 .slides{
   position: relative;
@@ -133,7 +142,7 @@ clear:both;
 width:auto;
 background: #ffff00;
 text-align: center;
-padding-top: 50;
+padding-top: 50px;
 height:350px;
 }
 
