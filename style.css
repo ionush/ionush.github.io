@@ -13,8 +13,8 @@ color: #333333;}
 }
 .white_bg{
   background: #fff;
-  padding: 50px 0;
-  margin-right: 350px;
+  padding: 70px 0;
+  margin-right: 150px;
 }
 
 
@@ -104,34 +104,12 @@ nav ul li a:hover
 {
 color: #fff;}
 
-/*#two
-{
-margin-top: ;
-font-size:25px;
-float:right;
-width:450px;
-}-->*/
 
-/*#two .column2
-{
-  margin: -100 0 0 50px;
-  position:relative;
-  float:right;
-  width:350px;*/
-}
-img.pineapple{
-  float:right;
-  width: 70px;
-  height: 60px;
-  overflow: hidden;
-}
 .slides{
   position: relative;
   text-align: center;
   display:inline-block;
   padding-top: -150 0;
-
-
   }
 
 
@@ -144,6 +122,9 @@ background: #ffff00;
 text-align: center;
 padding-top: 50px;
 height:350px;
+}
+footer p{
+  margin: 0px 100px 0px 100px;
 }
 
 .social{
