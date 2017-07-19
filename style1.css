@@ -1,0 +1,154 @@
+body
+{
+border-top: 5px solid #6fece6;
+
+font-family: 'Noto Sans SC Sliced', sans-serif;
+color: #333333;}
+
+
+.green_bg{
+  background: #6fece6;
+  padding: 200px 0;
+
+}
+.white_bg{
+  background: #fff;
+  padding: 70px 0;
+  margin-right: 150px;
+}
+
+
+.pink_bg{
+  background: #fed2df;
+  padding: 100px 0;
+  text-align: center;
+  ;
+}
+
+p
+{
+margin: 0px 50px 0px 50px;
+line-height: 25px;}
+
+a
+{
+text-decoration: none;
+color: inherit;
+transition: color .5s ease;}
+
+strong
+{
+font-weight: bold;}
+header
+{
+position:relative;
+width:auto;
+max-width:900px;
+margin: 0 auto auto auto;}
+
+header h1
+{
+width:auto
+margin: 0px 0px 0px 0px;
+font-size: 80px;
+color: black;
+text-align: center;
+font-family: 'Noto Sans SC Sliced', cursive;}
+.subheading{
+  width:auto
+  margin: 0px 0px 0px 0px;
+
+  color: black;
+  text-align: center;
+  font-family: 'Noto Sans SC Sliced', cursive;}
+}
+
+header p
+{
+font-family: 'Noto Sans SC Sliced', sans-serif;
+font-size: 24px;
+color: #4A463B;
+margin-left:35px;}
+h2
+{
+  font-family: 'Noto Sans SC Sliced', sans-serif;
+  font-size: 34px;
+  text-align: center;
+  color: #4A463B;}
+}
+nav
+{
+        position:absolute;
+        right:0;
+        bottom:0;
+
+}
+nav ul
+{
+list-style:none;}
+
+nav ul li
+{
+display:block;
+float:right;
+padding:0px 10px;
+margin-top: }
+
+nav ul li a
+{
+font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+transition: all .25s ease;}
+
+nav ul li a:hover
+{
+color: #fff;}
+
+
+.slides{
+  position: relative;
+  text-align: center;
+  display:inline-block;
+  padding-top: -150 0;
+  }
+
+
+footer
+{
+position:relative;
+clear:both;
+width:auto;
+background: #ffff00;
+text-align: center;
+padding-top: 50px;
+height:350px;
+}
+footer p{
+  margin: 0px 100px 0px 100px;
+}
+
+.social{
+display:inline-block;
+text-align: center;
+}
+.logo {
+  float:left; padding:30px;}
+.social a{
+transition: opacity .25s ease;
+opacity: 0.3;
+margin-left:;
+display:block;
+}
+
+.social a:hover
+{
+opacity: 0.7;}
+
+
+
+
+.hidden
+{
+position:absolute;
+clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+clip: rect(1px, 1px, 1px, 1px);}
